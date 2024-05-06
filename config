@@ -5,9 +5,12 @@
 	logallrefupdates = true
 	symlinks = false
 	ignorecase = true
-[remote "origin"]
+[remote "upstream"]
 	url = https://github.com/technext/mirko.git
-	fetch = +refs/heads/*:refs/remotes/origin/*
+	fetch = +refs/heads/*:refs/remotes/upstream/*
 [branch "main"]
 	remote = origin
 	merge = refs/heads/main
+[remote "origin"]
+	url = https://github.com/Ketan787898/mirko.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
